@@ -165,3 +165,8 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields.selection,name:dms_auto_classification.selection__wizard_dms_classification_detail__state__to_classify
 msgid "To classify"
 msgstr "До класифікації"
+
+#. module: dms_auto_classification
+#: model:ir.model.fields,field_description:dms_auto_classification.field_dms_classification_template__directory_pattern
+msgid "Directory Pattern"
+msgstr "Шаблон каталогу"
