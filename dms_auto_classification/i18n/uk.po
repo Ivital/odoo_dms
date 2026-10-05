@@ -175,3 +175,9 @@ msgstr "Шаблон каталогу"
 #: model:ir.model,name:dms_auto_classification.model_wizard_dms_classification
 msgid "Wizard Dms Classification"
 msgstr "Майстер класифікації DMS"
+
+#. module: dms_auto_classification
+#. odoo-python
+#: code:addons/dms_auto_classification/wizards/wizard_dms_classification.py:0
+msgid "Only .zip files are allowed"
+msgstr "Дозволені лише файли .zip"

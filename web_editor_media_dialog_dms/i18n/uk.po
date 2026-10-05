@@ -17,3 +17,39 @@ msgstr ""
 #: model:ir.model,name:web_editor_media_dialog_dms.model_dms_file
 msgid "File"
 msgstr "Файл"
+
+#. module: web_editor_media_dialog_dms
+#. odoo-javascript
+#: code:addons/web_editor_media_dialog_dms/static/src/media_dialog/dms_selector.xml:0
+msgid "All DMS files have been loaded"
+msgstr "Усі файли DMS завантажено"
+
+#. module: web_editor_media_dialog_dms
+#. odoo-javascript
+#: code:addons/web_editor_media_dialog_dms/static/src/media_dialog/dms_selector.xml:0
+msgid "Allow open to public users"
+msgstr "Дозволити відкриття публічним користувачам"
+
+#. module: web_editor_media_dialog_dms
+#. odoo-python
+#: code:addons/web_editor_media_dialog_dms/models/dms_file.py:0
+msgid "Invalid access token"
+msgstr "Недійсний токен доступу"
+
+#. module: web_editor_media_dialog_dms
+#. odoo-javascript
+#: code:addons/web_editor_media_dialog_dms/static/src/media_dialog/dms_selector.xml:0
+msgid "Load more..."
+msgstr "Завантажити ще..."
+
+#. module: web_editor_media_dialog_dms
+#. odoo-javascript
+#: code:addons/web_editor_media_dialog_dms/static/src/media_dialog/dms_selector.xml:0
+msgid "No DMS files found."
+msgstr "Файлів DMS не знайдено."
+
+#. module: web_editor_media_dialog_dms
+#. odoo-javascript
+#: code:addons/web_editor_media_dialog_dms/static/src/media_dialog/dms_selector.esm.js:0
+msgid "Search a dms file"
+msgstr "Шукати файл DMS"

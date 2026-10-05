@@ -1907,3 +1907,172 @@ msgstr "Майстер переміщення файлу DMS"
 #: model:ir.model,name:dms.model_wizard_dms_share
 msgid "Wizard for sharing DMS records"
 msgstr "Майстер спільного доступу до записів DMS"
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/directory.py:0
+msgid "%s Files"
+msgstr "%s файлів"
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/directory.py:0
+msgid "%s Subdirectories"
+msgstr "%s підкаталогів"
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/directory.py:0
+msgid "A directory can't be a root and have a parent directory."
+msgstr "Каталог не може одночасно бути кореневим і мати батьківський каталог."
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/directory.py:0
+msgid "A directory has to have a parent directory."
+msgstr "Каталог повинен мати батьківський каталог."
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/directory.py:0
+msgid "A directory has to have model in attachment storage."
+msgstr "Каталог повинен мати модель у сховищі вкладень."
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/directory.py:0
+msgid "A directory with the same name already exists."
+msgstr "Каталог із такою назвою вже існує."
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/dms_file.py:0
+msgid "A file must have model and resource ID in attachment storage."
+msgstr "Файл повинен мати модель і ID ресурсу у сховищі вкладень."
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/dms_file.py:0
+msgid "A file with the same name already exists in this directory."
+msgstr "Файл із такою назвою вже існує в цьому каталозі."
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/directory.py:0
+msgid "A root directory has to have a storage."
+msgstr "Кореневий каталог повинен мати сховище."
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/directory.py:0
+msgid "Alias-Mail-Extraction"
+msgstr "Вилучення з Alias-Mail"
+
+#. module: dms
+#. odoo-javascript
+#: code:addons/dms/static/src/js/fields/path_json/path_owl.esm.js:0
+msgid "Dms Path Field"
+msgstr "Поле шляху DMS"
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/dms_category.py:0
+msgid "Error! You cannot create recursive categories."
+msgstr "Помилка! Не можна створювати рекурсивні категорії."
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/directory.py:0
+msgid "Error! You cannot create recursive directories."
+msgstr "Помилка! Не можна створювати рекурсивні каталоги."
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/directory.py:0
+msgid "It is not possible to change the storage."
+msgstr "Неможливо змінити сховище."
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/directory.py:0
+msgid "It is not possible to change to a parent with other storage."
+msgstr "Неможливо змінити батьківський елемент на такий, що має інше сховище."
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/dms_file.py:0
+msgid "Migrate File %(index)s of %(record_count)s [ %(dms_file_migration)s ]"
+msgstr ""
+"Міграція файлу %(index)s із %(record_count)s [ %(dms_file_migration)s ]"
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/dms_file.py:0
+msgid "Only files in the same root directory can be moved."
+msgstr "Переміщувати можна лише файли в одному кореневому каталозі."
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/storage.py:0
+msgid "Only managers can execute this action."
+msgstr "Лише менеджери можуть виконувати цю дію."
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/access_groups.py:0
+msgid "Parent group '%(parent)s' is child of '%(current)s'."
+msgstr "Батьківська група «%(parent)s» є дочірньою для «%(current)s»."
+
+#. module: dms
+#. odoo-javascript
+#: code:addons/dms/static/src/js/fields/preview_binary/preview_record.esm.js:0
+msgid "Preview Record"
+msgstr "Попередній перегляд запису"
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/controllers/main.py:0
+msgid "Something horrible happened"
+msgstr "Сталося щось жахливе"
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/directory.py:0
+msgid "The directory name is invalid."
+msgstr "Назва каталогу недійсна."
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/dms_file.py:0
+msgid "The file has a forbidden file extension."
+msgstr "Файл має заборонене розширення."
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/dms_file.py:0
+msgid "The file name is invalid."
+msgstr "Назва файлу недійсна."
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/dms_file.py:0
+msgid "The maximum upload size is %s MB."
+msgstr "Максимальний розмір завантаження — %s МБ."
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/directory.py:0
+msgid "This directory needs to be associated to a record."
+msgstr "Цей каталог потрібно пов’язати із записом."
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/controllers/main.py:0
+msgid "You are not allowed to upload a file here."
+msgstr "Вам не дозволено завантажувати файл сюди."
+
+#. module: dms
+#. odoo-javascript
+#: code:addons/dms/static/src/js/views/dms_file_upload.esm.js:0
+msgid "You must select a directory first"
+msgstr "Спочатку виберіть каталог"
