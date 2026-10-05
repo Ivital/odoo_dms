@@ -68,3 +68,18 @@ msgstr "Послідовність"
 #: model:ir.model.fields,field_description:dms_field_auto_classification.field_wizard_dms_classification_detail__template_id
 msgid "Template"
 msgstr "Шаблон"
+
+#. module: dms_field_auto_classification
+#: model:ir.model.fields,field_description:dms_field_auto_classification.field_dms_classification_template_detail__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: dms_field_auto_classification
+#: model:ir.model.fields,field_description:dms_field_auto_classification.field_dms_classification_template_detail__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: dms_field_auto_classification
+#: model:ir.model.fields,field_description:dms_field_auto_classification.field_wizard_dms_classification_detail__record_ref
+msgid "Record Referenced"
+msgstr "Згаданий запис"

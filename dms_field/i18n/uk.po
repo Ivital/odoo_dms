@@ -114,3 +114,33 @@ msgstr "Сховище"
 #: model:ir.model.fields,field_description:dms_field.field_dms_field_template__user_field_id
 msgid "User field"
 msgstr "Поле користувача"
+
+#. module: dms_field
+#: model:ir.model.fields,field_description:dms_field.field_dms_field_mixin__dms_directory_ids
+#: model:ir.model.fields,field_description:dms_field.field_dms_field_template__dms_directory_ids
+#: model:ir.model.fields,field_description:dms_field.field_res_partner__dms_directory_ids
+#: model:ir.model.fields,field_description:dms_field.field_res_users__dms_directory_ids
+msgid "DMS Directories"
+msgstr "Каталоги DMS"
+
+#. module: dms_field
+#: model:ir.model.fields.selection,name:dms_field.selection__ir_actions_act_window_view__view_mode__dms_list
+#: model:ir.model.fields.selection,name:dms_field.selection__ir_ui_view__type__dms_list
+msgid "DMS Tree"
+msgstr "Дерево DMS"
+
+#. module: dms_field
+#: model:ir.model.fields,field_description:dms_field.field_dms_field_template__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: dms_field
+#: model:ir.model.fields,field_description:dms_field.field_dms_field_template__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: dms_field
+#. odoo-javascript
+#: code:addons/dms_field/static/src/views/dms_list/dms_list_renderer.esm.js:0
+msgid "Rename"
+msgstr "Перейменувати"

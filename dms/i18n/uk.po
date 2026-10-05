@@ -632,3 +632,650 @@ msgstr "Користувачі"
 #: model:ir.model.fields,field_description:dms.field_dms_security_mixin__permission_write
 msgid "Write Access"
 msgstr "Доступ на запис"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_kanban
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_file_kanban
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_tag_kanban
+msgid ""
+"<i class=\"fa fa-external-link\"/>\n"
+"                                            Open"
+msgstr ""
+"<i class=\"fa fa-external-link\"/>\n"
+"                                            Відкрити"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_kanban
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_file_kanban
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_tag_kanban
+msgid ""
+"<i class=\"fa fa-pencil-square-o\"/>\n"
+"                                            Edit"
+msgstr ""
+"<i class=\"fa fa-pencil-square-o\"/>\n"
+"                                            Редагувати"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_kanban
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_file_kanban
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_tag_kanban
+msgid ""
+"<i class=\"fa fa-trash-o\"/>\n"
+"                                            Delete"
+msgstr ""
+"<i class=\"fa fa-trash-o\"/>\n"
+"                                            Видалити"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_kanban
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_file_kanban
+msgid "<span>Actions</span>"
+msgstr "<span>Дії</span>"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_form
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_file_form
+msgid "Access Information"
+msgstr "Інформація про доступ"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__access_warning
+#: model:ir.model.fields,field_description:dms.field_dms_file__access_warning
+#: model:ir.model.fields,field_description:dms.field_wizard_dms_share__access_warning
+msgid "Access warning"
+msgstr "Попередження про доступ"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__message_needaction
+#: model:ir.model.fields,field_description:dms.field_dms_file__message_needaction
+msgid "Action Needed"
+msgstr "Потрібна дія"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__activity_exception_decoration
+#: model:ir.model.fields,field_description:dms.field_dms_file__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Оформлення винятку дії"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__activity_state
+#: model:ir.model.fields,field_description:dms.field_dms_file__activity_state
+msgid "Activity State"
+msgstr "Стан дії"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__activity_type_icon
+#: model:ir.model.fields,field_description:dms.field_dms_file__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Піктограма типу дії"
+
+#. module: dms
+#: model_terms:ir.actions.act_window,help:dms.action_dms_file
+#: model_terms:ir.actions.act_window,help:dms.action_dms_file_migration
+#: model_terms:ir.actions.act_window,help:dms.action_dms_file_storage_migration
+msgid "Add a new File."
+msgstr "Додати новий файл."
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__alias_contact
+msgid "Alias Contact Security"
+msgstr "Безпека контакту псевдоніма"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__alias_domain
+msgid "Alias Domain Name"
+msgstr "Домен псевдоніма"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_form
+msgid "Alias Setting"
+msgstr "Налаштування псевдоніма"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__alias_model_id
+msgid "Aliased Model"
+msgstr "Модель-псевдонім"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.search_dms_file
+msgid "All Files"
+msgstr "Усі файли"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.search_dms_file
+msgid "Archived Files"
+msgstr "Архівні файли"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__message_attachment_count
+#: model:ir.model.fields,field_description:dms.field_dms_file__message_attachment_count
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_file__attachment_id
+msgid "Attachment File"
+msgstr "Файл вкладення"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_new_form
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_file_new_form
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_storage_new_form
+#: model_terms:ir.ui.view,arch_db:dms.wizard_dms_file_move_form_view
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_file__checksum
+msgid "Checksum/SHA1"
+msgstr "Контрольна сума/SHA1"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_category__child_category_ids
+msgid "Child Categories"
+msgstr "Дочірні категорії"
+
+#. module: dms
+#: model_terms:ir.actions.act_window,help:dms.action_dms_directories_all_directory
+#: model_terms:ir.actions.act_window,help:dms.action_dms_directories_directory
+#: model_terms:ir.actions.act_window,help:dms.action_dms_directories_storage
+msgid "Click to add a new directory."
+msgstr "Натисніть, щоб додати новий каталог."
+
+#. module: dms
+#: model_terms:ir.actions.act_window,help:dms.action_dms_files_all_directory
+#: model_terms:ir.actions.act_window,help:dms.action_dms_files_directory
+#: model_terms:ir.actions.act_window,help:dms.action_dms_files_storage
+msgid "Click to add a new file."
+msgstr "Натисніть, щоб додати новий файл."
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__complete_group_ids
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_form
+msgid "Complete Groups"
+msgstr "Повні групи"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_category__complete_name
+#: model:ir.model.fields,field_description:dms.field_dms_directory__complete_name
+msgid "Complete Name"
+msgstr "Повна назва"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_file__content_binary
+msgid "Content Binary"
+msgstr "Бінарний вміст"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_file__content_file
+msgid "Content File"
+msgstr "Файл вмісту"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_access_group__count_directories
+#: model:ir.model.fields,field_description:dms.field_dms_category__count_directories
+#: model:ir.model.fields,field_description:dms.field_dms_storage__count_storage_directories
+#: model:ir.model.fields,field_description:dms.field_dms_tag__count_directories
+msgid "Count Directories"
+msgstr "Кількість каталогів"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__count_elements
+msgid "Count Elements"
+msgstr "Кількість елементів"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_access_group__perm_create
+#: model:ir.model.fields,field_description:dms.field_dms_directory__permission_create
+#: model:ir.model.fields,field_description:dms.field_dms_file__permission_create
+#: model:ir.model.fields,field_description:dms.field_dms_security_mixin__permission_create
+msgid "Create Access"
+msgstr "Створити доступ"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.search_dms_directory
+#: model_terms:ir.ui.view,arch_db:dms.search_dms_file
+msgid "Creation Date"
+msgstr "Дата створення"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__alias_bounced_content
+msgid "Custom Bounced Message"
+msgstr "Власне повідомлення про повернення листа"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__alias_defaults
+msgid "Default Values"
+msgstr "Типові значення"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__permission_unlink
+#: model:ir.model.fields,field_description:dms.field_dms_file__permission_unlink
+#: model:ir.model.fields,field_description:dms.field_dms_security_mixin__permission_unlink
+msgid "Delete Access"
+msgstr "Видалити доступ"
+
+#. module: dms
+#: model_terms:ir.actions.act_window,help:dms.action_dms_directories_all_directory
+#: model_terms:ir.actions.act_window,help:dms.action_dms_directories_directory
+#: model_terms:ir.actions.act_window,help:dms.action_dms_directories_storage
+#: model_terms:ir.actions.act_window,help:dms.action_dms_directory
+msgid ""
+"Directories can be used to structure and organize\n"
+"                files directly in Odoo."
+msgstr ""
+"Каталоги можна використовувати для структурування та організації файлів "
+"безпосередньо в Odoo."
+
+#. module: dms
+#: model:ir.model,name:dms.model_dms_category
+msgid "Document Category"
+msgstr "Категорія документа"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_form
+msgid "Elements"
+msgstr "Елементи"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_access_group__explicit_user_ids
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_access_groups_form
+msgid "Explicit Users"
+msgstr "Явно вказані користувачі"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.res_config_settings_view_form
+msgid "File Extensions"
+msgstr "Розширення файлів"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.res_config_settings_view_form
+msgid "File Upload"
+msgstr "Завантаження файлу"
+
+#. module: dms
+#: model_terms:ir.actions.act_window,help:dms.action_dms_file
+#: model_terms:ir.actions.act_window,help:dms.action_dms_file_migration
+#: model_terms:ir.actions.act_window,help:dms.action_dms_file_storage_migration
+#: model_terms:ir.actions.act_window,help:dms.action_dms_files_all_directory
+#: model_terms:ir.actions.act_window,help:dms.action_dms_files_directory
+#: model_terms:ir.actions.act_window,help:dms.action_dms_files_storage
+msgid "Files are used to save content directly in Odoo."
+msgstr "Файли використовуються для збереження вмісту безпосередньо в Odoo."
+
+#. module: dms
+#: model:ir.model.fields.selection,name:dms.selection__dms_storage__save_type__file
+msgid "Filestore"
+msgstr "Файлове сховище"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.search_dms_directory
+#: model_terms:ir.ui.view,arch_db:dms.search_dms_file
+#: model_terms:ir.ui.view,arch_db:dms.search_dms_file_migration
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_storage_search
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_tag_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__inherit_group_ids
+msgid "Inherit Groups"
+msgstr "Успадковувати групи"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__storage_id_inherit_access_from_parent_record
+#: model:ir.model.fields,field_description:dms.field_dms_storage__inherit_access_from_parent_record
+msgid "Inherit permissions from related record"
+msgstr "Успадковувати дозволи від пов'язаного запису"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_form
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_new_form
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_file_form
+msgid "Internal / Human Resource"
+msgstr "Внутрішній / людські ресурси"
+
+#. module: dms
+#: model:ir.model.fields.selection,name:dms.selection__res_company__documents_onboarding_directory_state__just_done
+#: model:ir.model.fields.selection,name:dms.selection__res_company__documents_onboarding_file_state__just_done
+#: model:ir.model.fields.selection,name:dms.selection__res_company__documents_onboarding_state__just_done
+#: model:ir.model.fields.selection,name:dms.selection__res_company__documents_onboarding_storage_state__just_done
+msgid "Just done"
+msgstr "Щойно виконано"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_access_group__write_uid
+#: model:ir.model.fields,field_description:dms.field_dms_category__write_uid
+#: model:ir.model.fields,field_description:dms.field_dms_directory__write_uid
+#: model:ir.model.fields,field_description:dms.field_dms_file__write_uid
+#: model:ir.model.fields,field_description:dms.field_dms_storage__write_uid
+#: model:ir.model.fields,field_description:dms.field_dms_tag__write_uid
+#: model:ir.model.fields,field_description:dms.field_wizard_dms_file_move__write_uid
+#: model:ir.model.fields,field_description:dms.field_wizard_dms_share__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_access_group__write_date
+#: model:ir.model.fields,field_description:dms.field_dms_category__write_date
+#: model:ir.model.fields,field_description:dms.field_dms_directory__write_date
+#: model:ir.model.fields,field_description:dms.field_dms_file__write_date
+#: model:ir.model.fields,field_description:dms.field_dms_storage__write_date
+#: model:ir.model.fields,field_description:dms.field_dms_tag__write_date
+#: model:ir.model.fields,field_description:dms.field_wizard_dms_file_move__write_date
+#: model:ir.model.fields,field_description:dms.field_wizard_dms_share__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.portal_my_dms
+msgid "Last update"
+msgstr "Останнє оновлення"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__allowed_model_ids
+#: model:ir.model.fields,field_description:dms.field_dms_storage__model_ids
+msgid "Linked Models"
+msgstr "Пов'язані моделі"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__res_model
+#: model:ir.model.fields,field_description:dms.field_dms_file__res_model
+#: model:ir.model.fields,field_description:dms.field_dms_security_mixin__res_model
+msgid "Linked attachments model"
+msgstr "Модель пов'язаних вкладень"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__res_id
+#: model:ir.model.fields,field_description:dms.field_dms_file__res_id
+#: model:ir.model.fields,field_description:dms.field_dms_security_mixin__res_id
+msgid "Linked attachments record ID"
+msgstr "ID запису пов'язаних вкладень"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__alias_incoming_local
+msgid "Local-part based incoming detection"
+msgstr "Виявлення вхідних за локальною частиною"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_file_form
+msgid "Lock"
+msgstr "Заблокувати"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__message_has_error
+#: model:ir.model.fields,field_description:dms.field_dms_file__message_has_error
+msgid "Message Delivery error"
+msgstr "Помилка доставки повідомлення"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_form
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_file_form
+msgid "Meta Information"
+msgstr "Метаінформація"
+
+#. module: dms
+#: model:ir.actions.server,name:dms.action_dms_attachment_migrate
+msgid "Migrate"
+msgstr "Мігрувати"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_storage_form
+msgid "Migrate Files"
+msgstr "Мігрувати файли"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_file__migration
+msgid "Migration Status"
+msgstr "Статус міграції"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.search_dms_directory
+#: model_terms:ir.ui.view,arch_db:dms.search_dms_file
+msgid "Modification Date"
+msgstr "Дата зміни"
+
+#. module: dms
+#: model:ir.actions.act_window,name:dms.wizard_dms_file_move_act_window
+msgid "Move files"
+msgstr "Перемістити файли"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__my_activity_date_deadline
+#: model:ir.model.fields,field_description:dms.field_dms_file__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Кінцевий термін моєї дії"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.search_dms_directory
+msgid "My Directories"
+msgstr "Мої каталоги"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_form
+msgid "My Documents"
+msgstr "Мої документи"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.search_dms_file
+msgid "My Files"
+msgstr "Мої файли"
+
+#. module: dms
+#: model:ir.actions.act_window,name:dms.action_dms_directory_new
+#: model:ir.actions.act_window,name:dms.action_dms_file_new
+msgid "New Root Directory"
+msgstr "Новий кореневий каталог"
+
+#. module: dms
+#: model:ir.actions.act_window,name:dms.action_dms_storage_new
+msgid "New Storage"
+msgstr "Нове сховище"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__activity_date_deadline
+#: model:ir.model.fields,field_description:dms.field_dms_file__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Кінцевий термін наступної дії"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__activity_summary
+#: model:ir.model.fields,field_description:dms.field_dms_file__activity_summary
+msgid "Next Activity Summary"
+msgstr "Підсумок наступної дії"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__activity_type_id
+#: model:ir.model.fields,field_description:dms.field_dms_file__activity_type_id
+msgid "Next Activity Type"
+msgstr "Тип наступної дії"
+
+#. module: dms
+#: model:ir.model.fields.selection,name:dms.selection__res_company__documents_onboarding_directory_state__not_done
+#: model:ir.model.fields.selection,name:dms.selection__res_company__documents_onboarding_file_state__not_done
+#: model:ir.model.fields.selection,name:dms.selection__res_company__documents_onboarding_state__not_done
+#: model:ir.model.fields.selection,name:dms.selection__res_company__documents_onboarding_storage_state__not_done
+msgid "Not done"
+msgstr "Не виконано"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.portal_my_dms
+msgid "Not results"
+msgstr "Немає результатів"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__message_needaction_counter
+#: model:ir.model.fields,field_description:dms.field_dms_file__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__message_has_error_counter
+#: model:ir.model.fields,field_description:dms.field_dms_file__message_has_error_counter
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_category__parent_id
+msgid "Parent Category"
+msgstr "Батьківська категорія"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_access_group__parent_group_id
+msgid "Parent Group"
+msgstr "Батьківська група"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__alias_parent_thread_id
+msgid "Parent Record Thread ID"
+msgstr "ID гілки батьківського запису"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__access_url
+#: model:ir.model.fields,field_description:dms.field_dms_file__access_url
+msgid "Portal Access URL"
+msgstr "URL доступу до порталу"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__record_ref
+#: model:ir.model.fields,field_description:dms.field_dms_file__record_ref
+#: model:ir.model.fields,field_description:dms.field_dms_security_mixin__record_ref
+msgid "Record Referenced"
+msgstr "Згаданий запис"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__alias_force_thread_id
+msgid "Record Thread ID"
+msgstr "ID гілки запису"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_wizard_dms_share__resource_ref
+msgid "Related Document"
+msgstr "Пов'язаний документ"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_wizard_dms_share__res_id
+msgid "Related Document ID"
+msgstr "ID пов'язаного документа"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_wizard_dms_share__res_model
+msgid "Related Document Model"
+msgstr "Модель пов'язаного документа"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__activity_user_id
+#: model:ir.model.fields,field_description:dms.field_dms_file__activity_user_id
+msgid "Responsible User"
+msgstr "Відповідальний користувач"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_storage__root_directory_ids
+#: model_terms:ir.ui.view,arch_db:dms.search_dms_directory
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_storage_form
+msgid "Root Directories"
+msgstr "Кореневі каталоги"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__root_directory_id
+#: model:ir.model.fields,field_description:dms.field_dms_file__root_directory_id
+msgid "Root Directory"
+msgstr "Кореневий каталог"
+
+#. module: dms
+#. odoo-javascript
+#: code:addons/dms/static/src/js/views/file_kanban_renderer.xml:0
+#: code:addons/dms/static/src/js/views/file_list_renderer.xml:0
+msgid "Scan"
+msgstr "Сканувати"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__access_token
+#: model:ir.model.fields,field_description:dms.field_dms_file__access_token
+msgid "Security Token"
+msgstr "Токен безпеки"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.res_config_settings_view_form
+msgid "Show storages"
+msgstr "Показати сховища"
+
+#. module: dms
+#: model:ir.model.fields.selection,name:dms.selection__dms_directory__alias_process__files
+msgid "Single Files"
+msgstr "Окремі файли"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__human_size
+#: model:ir.model.fields,field_description:dms.field_dms_file__human_size
+msgid "Size (human readable)"
+msgstr "Розмір (людинозрозумілий)"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_abstract_dms_mixin__is_hidden
+#: model:ir.model.fields,field_description:dms.field_dms_directory__is_hidden
+#: model:ir.model.fields,field_description:dms.field_dms_file__is_hidden
+#: model:ir.model.fields,field_description:dms.field_dms_storage__is_hidden
+msgid "Storage is Hidden"
+msgstr "Сховище приховане"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_category_form
+msgid "Subcategories"
+msgstr "Підкатегорії"
+
+#. module: dms
+#: model:ir.actions.act_window,name:dms.action_dms_directories_all_directory
+#: model:ir.actions.act_window,name:dms.action_dms_directories_directory
+#: model:ir.model.fields,field_description:dms.field_dms_directory__child_directory_ids
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_form
+msgid "Subdirectories"
+msgstr "Підкаталоги"
+
+#. module: dms
+#: model:ir.model.fields.selection,name:dms.selection__dms_directory__alias_process__directory
+msgid "Subdirectory"
+msgstr "Підкаталог"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_form
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_directory_new_form
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_file_form
+msgid "Tags..."
+msgstr "Теги..."
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_file_form
+msgid "Technical Information"
+msgstr "Технічна інформація"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__count_total_elements
+msgid "Total Elements"
+msgstr "Усього елементів"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.wizard_dms_file_move_form_view
+msgid "Total files"
+msgstr "Усього файлів"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_access_group__perm_unlink
+msgid "Unlink Access"
+msgstr "Доступ до видалення"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.view_dms_file_form
+msgid "Unlock"
+msgstr "Розблокувати"
+
+#. module: dms
+#: model:ir.model.fields,field_description:dms.field_dms_directory__website_message_ids
+#: model:ir.model.fields,field_description:dms.field_dms_file__website_message_ids
+msgid "Website Messages"
+msgstr "Повідомлення вебсайту"
+
+#. module: dms
+#: model_terms:ir.ui.view,arch_db:dms.portal_my_dms
+msgid "element(s)"
+msgstr "елемент(и)"

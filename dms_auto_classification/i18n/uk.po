@@ -105,3 +105,63 @@ msgstr "Стан"
 #: model:ir.model.fields,field_description:dms_auto_classification.field_wizard_dms_classification__template_id
 msgid "Template"
 msgstr "Шаблон"
+
+#. module: dms_auto_classification
+#: model:ir.model.fields.selection,name:dms_auto_classification.selection__wizard_dms_classification__state__analyze
+#: model_terms:ir.ui.view,arch_db:dms_auto_classification.view_wizard_dms_classification_form
+msgid "Analyze"
+msgstr "Аналізувати"
+
+#. module: dms_auto_classification
+#: model_terms:ir.ui.view,arch_db:dms_auto_classification.view_wizard_dms_classification_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: dms_auto_classification
+#: model:ir.model.fields.selection,name:dms_auto_classification.selection__wizard_dms_classification_detail__state__classified
+msgid "Classified"
+msgstr "Класифіковано"
+
+#. module: dms_auto_classification
+#: model_terms:ir.ui.view,arch_db:dms_auto_classification.view_wizard_dms_classification_form
+msgid "Classify"
+msgstr "Класифікувати"
+
+#. module: dms_auto_classification
+#: model:ir.model.fields,field_description:dms_auto_classification.field_wizard_dms_classification__data_filename
+msgid "Data Filename"
+msgstr "Ім’я файлу даних"
+
+#. module: dms_auto_classification
+#: model:ir.model.fields.selection,name:dms_auto_classification.selection__wizard_dms_classification__state__draft
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: dms_auto_classification
+#: model:ir.model.fields,field_description:dms_auto_classification.field_wizard_dms_classification_detail__data_file
+msgid "File content"
+msgstr "Вміст файлу"
+
+#. module: dms_auto_classification
+#: model:ir.model.fields,field_description:dms_auto_classification.field_dms_classification_template__filename_pattern
+msgid "Filename Pattern"
+msgstr "Шаблон назви файлу"
+
+#. module: dms_auto_classification
+#: model:ir.model.fields,field_description:dms_auto_classification.field_dms_classification_template__write_uid
+#: model:ir.model.fields,field_description:dms_auto_classification.field_wizard_dms_classification__write_uid
+#: model:ir.model.fields,field_description:dms_auto_classification.field_wizard_dms_classification_detail__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: dms_auto_classification
+#: model:ir.model.fields,field_description:dms_auto_classification.field_dms_classification_template__write_date
+#: model:ir.model.fields,field_description:dms_auto_classification.field_wizard_dms_classification__write_date
+#: model:ir.model.fields,field_description:dms_auto_classification.field_wizard_dms_classification_detail__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: dms_auto_classification
+#: model:ir.model.fields.selection,name:dms_auto_classification.selection__wizard_dms_classification_detail__state__to_classify
+msgid "To classify"
+msgstr "До класифікації"

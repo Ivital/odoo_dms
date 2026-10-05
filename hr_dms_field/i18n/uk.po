@@ -18,3 +18,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hr_dms_field.view_employee_form
 msgid "Documents"
 msgstr "Документи"
+
+#. module: hr_dms_field
+#: model:ir.model.fields,field_description:hr_dms_field.field_hr_employee_base__dms_directory_ids
+msgid "DMS Directories"
+msgstr "Каталоги DMS"
+
+#. module: hr_dms_field
+#: model:ir.model.fields,field_description:hr_dms_field.field_res_config_settings__group_hr_public_dms
+msgid "Show DMS Documents to logged employees"
+msgstr "Показувати документи DMS авторизованим працівникам"
