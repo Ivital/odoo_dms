@@ -1,0 +1,116 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: dms_field
+#. odoo-javascript
+#: code:addons/dms_field/static/src/views/dms_list/dms_list_renderer.esm.js:0
+msgid "Actions"
+msgstr "Дії"
+
+#. module: dms_field
+#: model:ir.model.fields,field_description:dms_field.field_dms_access_group__company_id
+#: model:ir.model.fields,field_description:dms_field.field_dms_field_template__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: dms_field
+#: model:ir.model.fields,field_description:dms_field.field_dms_field_template__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: dms_field
+#: model:ir.model.fields,field_description:dms_field.field_dms_field_template__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: dms_field
+#. odoo-javascript
+#: code:addons/dms_field/static/src/views/dms_list/dms_list_renderer.esm.js:0
+msgid "Delete"
+msgstr "Видалити"
+
+#. module: dms_field
+#: model:ir.model,name:dms_field.model_dms_directory
+msgid "Directory"
+msgstr "Каталог"
+
+#. module: dms_field
+#: model:ir.model.fields,field_description:dms_field.field_dms_field_template__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: dms_field
+#: model:ir.actions.act_window,name:dms_field.dms_storage_act_window
+#: model:ir.ui.menu,name:dms_field.dms_storage_menu
+#: model_terms:ir.ui.view,arch_db:dms_field.view_dms_field_template_form
+msgid "Documents"
+msgstr "Документи"
+
+#. module: dms_field
+#. odoo-javascript
+#: code:addons/dms_field/static/src/views/dms_list/dms_list_renderer.esm.js:0
+#: code:addons/dms_field/static/src/views/dms_list/dms_list_renderer.xml:0
+msgid "Download"
+msgstr "Завантажити"
+
+#. module: dms_field
+#: model:ir.actions.act_window,name:dms_field.action_dms_field_template
+#: model:ir.ui.menu,name:dms_field.menu_dms_field_template
+msgid "Embedded DMS templates"
+msgstr "Вбудовані шаблони DMS"
+
+#. module: dms_field
+#: model:ir.model.fields,field_description:dms_field.field_dms_field_template__group_ids
+msgid "Groups"
+msgstr "Групи"
+
+#. module: dms_field
+#: model:ir.model.fields,field_description:dms_field.field_dms_field_template__model_id
+msgid "Model"
+msgstr "Модель"
+
+#. module: dms_field
+#: model:ir.model.fields,field_description:dms_field.field_dms_field_template__model
+msgid "Model name"
+msgstr "Назва моделі"
+
+#. module: dms_field
+#: model:ir.model.fields,field_description:dms_field.field_dms_field_template__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: dms_field
+#. odoo-javascript
+#: code:addons/dms_field/static/src/views/dms_list/dms_list_renderer.esm.js:0
+#: code:addons/dms_field/static/src/views/dms_list/dms_list_renderer.xml:0
+msgid "Open"
+msgstr "Відкрити"
+
+#. module: dms_field
+#. odoo-javascript
+#: code:addons/dms_field/static/src/views/dms_list/dms_list_renderer.esm.js:0
+msgid "Preview"
+msgstr "Попередній перегляд"
+
+#. module: dms_field
+#: model:ir.model,name:dms_field.model_dms_storage
+#: model:ir.model.fields,field_description:dms_field.field_dms_field_template__storage_id
+msgid "Storage"
+msgstr "Сховище"
+
+#. module: dms_field
+#: model:ir.model.fields,field_description:dms_field.field_dms_field_template__user_field_id
+msgid "User field"
+msgstr "Поле користувача"
