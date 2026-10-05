@@ -83,3 +83,18 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:dms_field_auto_classification.field_wizard_dms_classification_detail__record_ref
 msgid "Record Referenced"
 msgstr "Згаданий запис"
+
+#. module: dms_field_auto_classification
+#: model:ir.model,name:dms_field_auto_classification.model_dms_classification_template
+msgid "Dms Classification Template"
+msgstr "Шаблон класифікації DMS"
+
+#. module: dms_field_auto_classification
+#: model:ir.model,name:dms_field_auto_classification.model_dms_classification_template_detail
+msgid "Dms Classification Template Detail"
+msgstr "Деталі шаблону класифікації DMS"
+
+#. module: dms_field_auto_classification
+#: model:ir.model,name:dms_field_auto_classification.model_wizard_dms_classification_detail
+msgid "Wizard Dms Classification Detail"
+msgstr "Деталі класифікації DMS"

@@ -33,3 +33,8 @@ msgstr "Показувати документи DMS авторизованим �
 #: model_terms:ir.ui.view,arch_db:hr_dms_field.res_config_settings_view_form
 msgid "Allow employees to access their DMS Documents."
 msgstr "Дозволити працівникам доступ до їхніх документів DMS."
+
+#. module: hr_dms_field
+#: model:res.groups,name:hr_dms_field.group_hr_public_dms
+msgid "DMS Is accessible publicly on employee profile"
+msgstr "DMS доступна публічно в профілі працівника"

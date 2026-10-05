@@ -170,3 +170,8 @@ msgstr "До класифікації"
 #: model:ir.model.fields,field_description:dms_auto_classification.field_dms_classification_template__directory_pattern
 msgid "Directory Pattern"
 msgstr "Шаблон каталогу"
+
+#. module: dms_auto_classification
+#: model:ir.model,name:dms_auto_classification.model_wizard_dms_classification
+msgid "Wizard Dms Classification"
+msgstr "Майстер класифікації DMS"

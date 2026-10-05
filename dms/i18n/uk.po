@@ -1644,3 +1644,266 @@ msgstr "Розпаковувати листи як"
 #: model:ir.model.fields,help:dms.field_dms_file__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: dms
+#. odoo-python
+#: code:addons/dms/models/access_groups.py:0
+msgid "%s (copy)"
+msgstr "%s (копія)"
+
+#. module: dms
+#: model:ir.model.fields,help:dms.field_dms_directory__alias_defaults
+msgid ""
+"A Python dictionary that will be evaluated to provide default values when "
+"creating new records for this alias."
+msgstr ""
+"Словник Python, який буде обчислено для надання типових значень під час "
+"створення нових записів для цього псевдоніма."
+
+#. module: dms
+#: model:ir.model,name:dms.model_abstract_dms_mixin
+msgid "Abstract Dms Mixin"
+msgstr "Абстрактний міксин DMS"
+
+#. module: dms
+#: model:ir.model.fields,help:dms.field_wizard_dms_share__note
+msgid "Add extra content to display in the email"
+msgstr "Додати додатковий вміст для відображення в email"
+
+#. module: dms
+#: model:ir.model.fields,help:dms.field_dms_directory__alias_status
+msgid "Alias status assessed on the last message received."
+msgstr "Статус псевдоніма, визначений за останнім отриманим повідомленням."
+
+#. module: dms
+#: model:ir.model.constraint,message:dms.constraint_dms_category_name_uniq
+msgid "Category name already exists!"
+msgstr "Назва категорії вже існує!"
+
+#. module: dms
+#: model:onboarding.onboarding.step,button_text:dms.onboarding_step_create_directory
+msgid "Create Directory"
+msgstr "Створити каталог"
+
+#. module: dms
+#: model:onboarding.onboarding.step,button_text:dms.onboarding_step_document_storage
+msgid "Create Storage"
+msgstr "Створити сховище"
+
+#. module: dms
+#: model:onboarding.onboarding.step,description:dms.onboarding_step_document_storage
+msgid "Create a new Document Storage."
+msgstr "Створити нове сховище документів."
+
+#. module: dms
+#: model:onboarding.onboarding.step,description:dms.onboarding_step_create_directory
+msgid "Create a new Root Directory."
+msgstr "Створити новий кореневий каталог."
+
+#. module: dms
+#: model:ir.model,name:dms.model_dms_security_mixin
+msgid "DMS Security Mixin"
+msgstr "Міксин безпеки DMS"
+
+#. module: dms
+#: model:ir.model,name:dms.model_dms_mixins_thumbnail
+msgid "DMS thumbnail and icon mixin"
+msgstr "Міксин мініатюри та піктограми DMS"
+
+#. module: dms
+#: model:ir.model.fields,help:dms.field_res_config_settings__documents_forbidden_extensions
+msgid "Defines a list of forbidden file extensions. (Example: 'exe,msi')"
+msgstr "Визначає список заборонених розширень файлів. (Приклад: 'exe,msi')"
+
+#. module: dms
+#: model:ir.model.fields,help:dms.field_res_config_settings__documents_binary_max_size
+msgid "Defines the maximum upload size in MB. Default (25MB)"
+msgstr ""
+"Визначає максимальний розмір завантаження в МБ. За замовчуванням 25 МБ"
+
+#. module: dms
+#: model:onboarding.onboarding.step,done_text:dms.onboarding_step_document_storage
+msgid "Document Storage Created!"
+msgstr "Сховище документів створено!"
+
+#. module: dms
+#: model:ir.model,name:dms.model_dms_tag
+msgid "Document Tag"
+msgstr "Тег документа"
+
+#. module: dms
+#: model:ir.model.fields,help:dms.field_dms_directory__alias_domain
+msgid "Email domain e.g. 'example.com' in 'odoo@example.com'"
+msgstr ""
+"Домен електронної пошти, наприклад 'example.com' в адресі 'odoo@example.com'"
+
+#. module: dms
+#: model:onboarding.onboarding,name:dms.onboarding_onboarding_dms_file
+msgid "File Onboarding"
+msgstr "Онбординг файлу"
+
+#. module: dms
+#: model:onboarding.onboarding.step,done_text:dms.onboarding_step_upload_file
+msgid "First File Uploaded!"
+msgstr "Перший файл завантажено!"
+
+#. module: dms
+#: model:ir.model.fields,help:dms.field_dms_directory__alias_parent_thread_id
+msgid ""
+"ID of the parent record holding the alias (example: project holding the task"
+" creation alias)"
+msgstr ""
+"ID батьківського запису, що містить псевдонім (наприклад, проєкт, що містить"
+" псевдонім створення завдання)"
+
+#. module: dms
+#: model:ir.model.fields,help:dms.field_dms_file__active
+msgid "If a file is set to archived, it is not displayed, but still exists."
+msgstr ""
+"Якщо файл заархівовано, він не відображається, але продовжує існувати."
+
+#. module: dms
+#: model:ir.model.fields,help:dms.field_dms_directory__alias_bounced_content
+msgid ""
+"If set, this content will automatically be sent out to unauthorized users "
+"instead of the default message."
+msgstr ""
+"Якщо задано, цей вміст автоматично надсилатиметься неавторизованим "
+"користувачам замість стандартного повідомлення."
+
+#. module: dms
+#: model:ir.model.fields,help:dms.field_dms_directory__storage_id_inherit_access_from_parent_record
+#: model:ir.model.fields,help:dms.field_dms_storage__inherit_access_from_parent_record
+msgid ""
+"Indicate if directories and files access work only with related model access"
+" (for example, if some directories are related with any sale, only users "
+"with read access to these sale can access)"
+msgstr ""
+"Вказує, чи доступ до каталогів і файлів працює лише разом із доступом до "
+"пов’язаної моделі (наприклад, якщо каталоги пов’язані з продажами, доступ "
+"мають лише користувачі з правом читання цих продажів)."
+
+#. module: dms
+#: model:ir.model.fields,help:dms.field_dms_storage__include_message_attachments
+msgid ""
+"Indicate if directories and files auto-create in mail composition process "
+"too"
+msgstr ""
+"Вказує, чи створювати каталоги й файли автоматично також під час формування "
+"листа"
+
+#. module: dms
+#: model:ir.model.fields,help:dms.field_dms_directory__is_root_directory
+msgid ""
+"Indicates if the directory is a root directory.\n"
+"        A root directory has a settings object, while a directory with a set\n"
+"        parent inherits the settings form its parent."
+msgstr ""
+"Вказує, чи є каталог кореневим.\n"
+"        Кореневий каталог має власний об’єкт налаштувань, тоді як каталог із заданим\n"
+"        батьківським каталогом успадковує його налаштування."
+
+#. module: dms
+#: model:onboarding.onboarding.step,step_image_alt:dms.onboarding_step_create_directory
+msgid "Onboarding Directory"
+msgstr "Онбординг каталогу"
+
+#. module: dms
+#: model:onboarding.onboarding.step,step_image_alt:dms.onboarding_step_upload_file
+msgid "Onboarding File"
+msgstr "Онбординг файлу"
+
+#. module: dms
+#: model:onboarding.onboarding.step,step_image_alt:dms.onboarding_step_document_storage
+msgid "Onboarding Storage"
+msgstr "Онбординг сховища"
+
+#. module: dms
+#: model:ir.model.fields,help:dms.field_dms_directory__alias_force_thread_id
+msgid ""
+"Optional ID of a thread (record) to which all incoming messages will be "
+"attached, even if they did not reply to it. If set, this will disable the "
+"creation of new records completely."
+msgstr ""
+"Необов’язковий ID гілки (запису), до якої буде прикріплено всі вхідні "
+"повідомлення, навіть якщо вони не є відповідями на неї. Якщо задано, "
+"створення нових записів буде повністю вимкнено."
+
+#. module: dms
+#: model:ir.model.fields,help:dms.field_dms_directory__alias_parent_model_id
+msgid ""
+"Parent model holding the alias. The model holding the alias reference is not"
+" necessarily the model given by alias_model_id (example: project "
+"(parent_model) and task (model))"
+msgstr ""
+"Батьківська модель, що містить псевдонім. Модель із посиланням на псевдонім "
+"не обов’язково є моделлю з alias_model_id (наприклад: project (parent_model)"
+" і task (model))"
+
+#. module: dms
+#: model:onboarding.onboarding.step,done_text:dms.onboarding_step_create_directory
+msgid "Root Directory Created!"
+msgstr "Кореневий каталог створено!"
+
+#. module: dms
+#: model:ir.model.fields,help:dms.field_dms_category__active
+msgid "The active field allows you to hide the category without removing it."
+msgstr "Поле «Активно» дозволяє приховати категорію без її видалення."
+
+#. module: dms
+#: model:ir.model.fields,help:dms.field_dms_tag__active
+msgid "The active field allows you to hide the tag without removing it."
+msgstr "Активне поле дає змогу приховати тег, не видаляючи його."
+
+#. module: dms
+#: model:ir.model.fields,help:dms.field_dms_directory__alias_model_id
+msgid ""
+"The model (Odoo Document Kind) to which this alias corresponds. Any incoming"
+" email that does not reply to an existing record will cause the creation of "
+"a new record of this model (e.g. a Project Task)"
+msgstr ""
+"Модель (тип документа Odoo), якій відповідає цей псевдонім. Будь-який "
+"вхідний лист, що не є відповіддю на існуючий запис, спричинить створення "
+"нового запису цієї моделі (наприклад, завдання проєкту)."
+
+#. module: dms
+#: model:ir.model.fields,help:dms.field_dms_directory__alias_name
+msgid ""
+"The name of the email alias, e.g. 'jobs' if you want to catch emails for "
+"<jobs@example.odoo.com>"
+msgstr ""
+"Назва поштового псевдоніма, напр. 'jobs', якщо потрібно приймати листи для "
+"<jobs@example.odoo.com>"
+
+#. module: dms
+#: model:ir.model.constraint,message:dms.constraint_dms_access_group_name_uniq
+msgid "The name of the group must be unique!"
+msgstr "Назва групи має бути унікальною!"
+
+#. module: dms
+#. odoo-javascript
+#: code:addons/dms/static/src/js/views/file_kanban_controller.xml:0
+#: code:addons/dms/static/src/js/views/file_kanban_renderer.xml:0
+#: code:addons/dms/static/src/js/views/file_list_renderer.xml:0
+msgid "Upload"
+msgstr "Завантажити"
+
+#. module: dms
+#: model:onboarding.onboarding.step,button_text:dms.onboarding_step_upload_file
+msgid "Upload File"
+msgstr "Завантажити файл"
+
+#. module: dms
+#: model:onboarding.onboarding.step,description:dms.onboarding_step_upload_file
+msgid "Upload your first File."
+msgstr "Завантажте свій перший файл."
+
+#. module: dms
+#: model:ir.model,name:dms.model_wizard_dms_file_move
+msgid "Wizard Dms File Move"
+msgstr "Майстер переміщення файлу DMS"
+
+#. module: dms
+#: model:ir.model,name:dms.model_wizard_dms_share
+msgid "Wizard for sharing DMS records"
+msgstr "Майстер спільного доступу до записів DMS"

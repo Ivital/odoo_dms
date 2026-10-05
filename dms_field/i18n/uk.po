@@ -169,3 +169,40 @@ msgstr "Батьківський каталог"
 #: model:ir.model.fields,field_description:dms_field.field_dms_field_template__parent_directory_id
 msgid "Parent directory"
 msgstr "Батьківський каталог"
+
+#. module: dms_field
+#. odoo-javascript
+#: code:addons/dms_field/static/src/views/dms_list/dms_list_renderer.esm.js:0
+msgid "Cut"
+msgstr "Вирізати"
+
+#. module: dms_field
+#: model:ir.model,name:dms_field.model_dms_field_template
+msgid "Dms Field Template"
+msgstr "Шаблон поля DMS"
+
+#. module: dms_field
+#: model:ir.model,name:dms_field.model_dms_field_mixin
+msgid "Mixin to use DMS Field"
+msgstr "Міксин для використання поля DMS"
+
+#. module: dms_field
+#. odoo-javascript
+#: code:addons/dms_field/static/src/views/dms_list/dms_list_renderer.esm.js:0
+msgid "Paste"
+msgstr "Вставити"
+
+#. module: dms_field
+#. odoo-javascript
+#: code:addons/dms_field/static/src/views/dms_list/dms_list_renderer.xml:0
+msgid "Size:"
+msgstr "Розмір:"
+
+#. module: dms_field
+#: model:ir.model.fields,help:dms_field.field_dms_field_template__directory_format_name
+msgid ""
+"You can set expressions to be used for the directory name,\n"
+"        e.g.: {{object.name}}"
+msgstr ""
+"Можна задати вирази для назви каталогу,\n"
+"        напр.: {{object.name}}"

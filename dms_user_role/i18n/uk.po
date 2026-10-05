@@ -18,3 +18,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:dms_user_role.view_dms_access_groups_form
 msgid "Roles"
 msgstr "Ролі"
+
+#. module: dms_user_role
+#: model:ir.model,name:dms_user_role.model_dms_access_group
+msgid "Record Access Groups"
+msgstr "Групи доступу до записів"
